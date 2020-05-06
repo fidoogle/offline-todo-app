@@ -63,6 +63,7 @@ const App = () => {
       if (!formState.name || !formState.description) return
       console.log({formState})
       await DataStore.save(new Todo({ ...formState, target_date: formState.target_date.toString() }))
+      setDateValue('target_date') //resets datepicker to today
       setFormState(initialState)
 
       // const todo = { ...formState }

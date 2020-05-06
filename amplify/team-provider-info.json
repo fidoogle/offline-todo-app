@@ -12,9 +12,6 @@
             "AmplifyAppId": "d21elfrfzp4cd8"
         },
         "categories": {
-            "auth": {
-                "offlinetodoappccd433cb": {}
-            },
             "hosting": {
                 "amplifyhosting": {
                     "appId": "d21elfrfzp4cd8",
